@@ -2,7 +2,9 @@
   "name": "Practica Document Understanding",
   "description": "Blank Process",
   "main": "Main.xaml",
-  "dependencies": {},
+  "dependencies": {
+    "UiPath.IntelligentOCR.Activities": "[6.9.1]"
+  },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
@@ -40,6 +42,14 @@
     "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "1635e25c-9581-42c0-a88c-be3c7b70e821",
+      "input": [],
+      "output": []
+    }
+  ],
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
